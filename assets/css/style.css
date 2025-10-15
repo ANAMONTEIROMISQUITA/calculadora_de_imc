@@ -1,0 +1,129 @@
+:root {
+  --primary-color: #FFC0CB;
+  --primary-color-darker: #D8BFF7;
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background: #BFFCC6;
+  padding: 20px;
+  border-radius: 10px;
+  border: 5px solid #E6E6FA;
+}
+
+img, form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+
+#resultado {
+  background: #391836;
+  padding: 10px 20px;
+  color: rgb(255, 249, 249);
+  border: 5px solid var(--primary-color);
+}
+
+h1{
+  text-align: center;
+  font-size: 40px ;
+    font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
+      background-color: #D8BFF7;
+      padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px ;
+    border-radius: 50px;
+
+}
+
+#console {
+  width: 100%;
+  height: 200px;
+  border: 5px solid var(--primary-color);
+  background-color: #391836;
+  overflow: auto;
+  padding: 10px;
+  font-family: monospace;
+  font-size: 14px;
+  color: white;
+  padding-top: 15px;
+  padding-left: 40px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px ;
+    font-style: normal;
+      background-color: var(--primary-color);
+      padding: 10px;
+    color: #ffffff;
+    margin-left: 100px;
+    margin-right: 100px ;
+    border-radius: 20px;
+    font-weight: bold; 
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .tabela{
+    margin: 0%;
+    margin-bottom: 50px;
+  }
+  .hist{
+    margin: 0%;
+    margin-bottom: 30px;
+  }
+  .text{
+    text-align: justify;
+    margin: 5px;
+  }
+  .nav{
+    text-align: center;
+    justify-content: center;
+  }
+}

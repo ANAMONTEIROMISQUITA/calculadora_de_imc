@@ -1,38 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Calculadora IMC</title>
-        <link rel="stylesheet" href="./assets/css/style.css"
-    </head>
-    <body>
-        <section class="conteiner">
-            <h1 class="tabela">Calculadora IMC</h1>
-            <div class="text">
-                <p>O Índice de Massa Corporal (IMC) é uma medida simples que relaciona o peso e a altura de uma pessoa.</p>
-                <p>A calculadora irá fornecer o seu IMC e indicar em qual categoria você se
-                   encontra sendo elas sobrepeso, obesidade ou magreza.</p>
-            </div>
-            <form class="form" id="form">
-                <label for="altura">Peso</label>
-                <input type="number" id="peso" placeholder="Digite em KG">
 
-                <label for="peso">Altura</label>
-                <input type="number" id="altura" placeholder="Digite em CM"
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora IMC</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-                <button type="submit">Calcular</button>
-                <button type="reset">Resetar a conta</button>
-            </form>
 
-            <div class="resultado" id="resultado"></div>
+</head>
 
-            <br>
-                <h2 class="hist">HISTÓRICO</h2>
-                <div id="console">
-                    <div id="bra"></div>
-                </div>
-            </br>
-        </section>
-    </body>
+<body>
+
+  <section class="container">
+
+    <h1 class="tabela">Calculadora IMC</h1>
+    <div class="text">
+      <p>O Índice de Massa Corporal (IMC) é uma medida simples que relaciona o peso e a altura de uma pessoa.</p>
+
+      <p> A calculadora irá fornecer o seu IMC e indicar em qual categoria você se
+        encontra sendo elas sobrepeso, obesidade ou
+        magreza</p>
+
+    </div>
+    <form class="form" id="form">
+
+      <label for="altura"> Peso</label>
+      <input type="number" id="peso" placeholder="Digita em kg">
+
+      <label for="peso"> Altura</label>
+      <input type="number" id="altura" placeholder="Digita em cm">
+
+      <button type="submit">Calcular</button>
+      <button type="reset">Resetar a conta</button>
+    </form>
+
+    <div class="resultado" id="resultado"></div>
+
+
+    <br>
+    <h2 class="hist">Historico</h2>
+    <div id="console">
+      <div id="bra"></div>
+    </div>
+
+
+    <script src="./assets/js/main.js"></script>
+  </section>
+</body>
+
 </html>
