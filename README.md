@@ -18,12 +18,12 @@ Este projeto foi desenvolvido como parte dos meus estudos em desenvolvimento web
 
 ## Como executar o projeto ⚡
 
-1. **Clone o repositório **
+1. **Clone o repositório**
     git clone https://github.com/ANAMONTEIROMISQUITA/calculadora_de_imc.git
 
-2. **Abra o index.html no navegador de sua preferência.
+2. **Abra o index.html no navegador de sua preferência.**
 
-3. **Utilize a calculador!
+3. **Utilize a calculador!**
 
 ## Melhorias futuras ✨
 
